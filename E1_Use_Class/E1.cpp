@@ -1,26 +1,26 @@
-// ConsoleApplication1.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// E1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
 
 
 class Retangle {
-    //Declaretions Retangle Class  for Area of a Rectangle  Area = Length × Width
+//Declaretions Retangle Class  for Area of a Rectangle  Area = Length × Width
 
-    //Define Variables width and length of Retangle
+//Define Variables width and length of Retangle
 private:
     double v_width;
     double v_length;
 
-    // Prototype Functions methods for get width and length of Retangle
+// Prototype Functions methods for get width and length of Retangle
 public:
 
     void setwidth(double width);
-
+  
     void setlength(double length);
-
+    
     double calculate()const;
-
+   
 };
 // Implementation Functions  methods for get width and length of Retangle
 
@@ -46,5 +46,5 @@ int main()
     r.setlength(10);
     r.setwidth(5);
 
-    std::cout << r.calculate() << "\n";
+    std::cout << r.calculate() <<"\n";
 }
