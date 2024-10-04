@@ -46,5 +46,5 @@ int main()
     r.setlength(10);
     r.setwidth(5);
 
-    std::cout << r.calculate() <<"\n";
+    std::cout <<"Area="<< r.calculate() <<"\n";
 }
