@@ -3,9 +3,8 @@
 
 #include <iostream>
 
-
-class Retangle {
 //Declaretions Retangle Class  for Area and Box Class for Volume  
+class Retangle {
 
 //Define Variables width and length of Retangle
 private:
@@ -27,7 +26,6 @@ public:
         v_length = length;
     }
    
-
     // Implementation Functions  methods for get width and length of Retangle
     void setwidth(double width)
     {
@@ -44,7 +42,6 @@ public:
     }
 };
 
-
 class Box {
 public:
 
@@ -59,9 +56,6 @@ private:
     Retangle r;
     double v_height;
 };
-
-
-
 
 // create object r for area and b for volume
 
